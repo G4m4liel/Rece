@@ -3,11 +3,11 @@ const btnNo = document.querySelector('.botones__btn-no');
 const randomPic = document.querySelector('.random-pics__cats');
 const question = document.querySelector('.question');
 
-const musica = new Audio('/assets/musica/Manu Chao - Me gustas tu.mp3');
+const musica = new Audio('./assets/musica/Manu Chao - Me gustas tu.mp3');
 
 // Si acepta: 
 btnSi.addEventListener('click', ()=>{
-    randomPic.src = '/assets/fotos/0.jpg';
+    randomPic.src = './assets/fotos/0.jpg';
     question.innerText = ' Uwu!!!!! :3 ';
     question.classList.add('question-style');
 
